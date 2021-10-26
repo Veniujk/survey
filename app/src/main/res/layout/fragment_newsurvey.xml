@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/newsurvey_layout"
+                  xmlns:app="http://schemas.android.com/apk/res-auto"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="@drawable/bg_pattern_repeated"
+                  android:orientation="vertical"
+                  app:expandedTitleTextAppearance="@style/WhiteText"
+                  android:tag="fragment_newsurvey">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:paddingBottom="10dp"
+
+            android:paddingTop="10dp"
+            android:text="Uzupełnij pytania i odpowiedzi"
+            android:textAlignment="center"
+            android:textColor="#fafafa"
+            android:textSize="20dp"
+            android:textStyle="bold" android:id="@+id/textView"/>
+    <ScrollView android:layout_height="wrap_content" android:layout_width="match_parent">
+        <LinearLayout     android:orientation="vertical"
+                          android:layout_width="match_parent" android:layout_height="wrap_content">
+
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Nazwa"
+                    android:ems="10"
+                    android:id="@+id/questset" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Pytanie pierwsze"
+                    android:ems="10"
+                    android:id="@+id/question1" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Odpowiedz"
+                    android:ems="10"
+                    android:id="@+id/q1" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Odpowiedz"
+                    android:ems="10"
+                    android:id="@+id/q2" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Odpowiedz"
+                    android:ems="10"
+                    android:id="@+id/q3" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Pytanie drugie"
+                    android:ems="10"
+                    android:id="@+id/question2" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Odpowiedz"
+                    android:ems="10"
+                    android:id="@+id/q21" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Odpowiedz"
+                    android:ems="10"
+                    android:id="@+id/q22" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Odpowiedz"
+                    android:ems="10"
+                    android:id="@+id/q23" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Pytanie trzecie"
+                    android:ems="10"
+                    android:id="@+id/question3" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Odpowiedz"
+                    android:ems="10"
+                    android:id="@+id/q31" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Odpowiedz"
+                    android:ems="10"
+                    android:id="@+id/q32" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Odpowiedz"
+                    android:ems="10"
+                    android:id="@+id/q33" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Pytanie czwarte"
+                    android:ems="10"
+                    android:id="@+id/question4" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Odpowiedz"
+                    android:ems="10"
+                    android:id="@+id/q41" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Odpowiedz"
+                    android:ems="10"
+                    android:id="@+id/q42" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Odpowiedz"
+                    android:ems="10"
+                    android:id="@+id/q43" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Pytanie piąte"
+                    android:ems="10"
+                    android:id="@+id/question5" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Odpowiedz"
+                    android:ems="10"
+                    android:id="@+id/q51" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Odpowiedz"
+                    android:ems="10"
+                    android:id="@+id/q52" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Odpowiedz"
+                    android:ems="10"
+                    android:id="@+id/q53" android:textAppearance="@style/WhiteText" android:textColor="#fafafa"/>
+    <Button
+            android:text="Wyślij"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/next1"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
